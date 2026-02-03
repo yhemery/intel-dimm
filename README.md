@@ -24,6 +24,9 @@ This driver is compatible with the following Intel platforms :
 * Broadwell LGA 2011-v3 / Xeon E5/E7 v4, Xeon D-15xx and i7 Extreme 6xxx
 * Skylake LGA 2066 and 3647 / 1st gen Xeon Scalable, Xeon W-21xx and i9 7xxx
 * Cascade Lake LGA 2066 and 3647 / 2nd gen Xeon Scalable, Xeon W-22xx and i9 10xxx
+* Ice Lake LGA 4189 / 3rd gen Xeon Scalable, Xeon W-33xx
+* Sapphire Rapids LGA 4677 / 4th gen Xeon Scalable, Xeon W-24xx, 34xx, 25xx and 35xx
+* Emerald Rapids LGA 4677 / 5th gen Xeon Scalable
 
 Some other platforms using one of the mentionned sockets are also probably compatible, but have not been tested.
 This driver is based on the CPU Power Control Unit (PCU) registers, which are not available on the lower end Xeon (E3) and Core platforms.
